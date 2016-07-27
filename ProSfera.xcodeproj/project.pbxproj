@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F549A2691D48C4C0008F1DF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F549A2681D48C4C0008F1DF4 /* main.m */; };
+		F549A26C1D48C4C0008F1DF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F549A26B1D48C4C0008F1DF4 /* AppDelegate.m */; };
+		F549A26E1D48C4C0008F1DF4 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F549A26D1D48C4C0008F1DF4 /* Shader.fsh */; };
+		F549A2701D48C4C0008F1DF4 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F549A26F1D48C4C0008F1DF4 /* Shader.vsh */; };
+		F549A2731D48C4C0008F1DF4 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F549A2721D48C4C0008F1DF4 /* GameViewController.m */; };
+		F549A2761D48C4C0008F1DF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F549A2741D48C4C0008F1DF4 /* Main.storyboard */; };
+		F549A2781D48C4C0008F1DF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F549A2771D48C4C0008F1DF4 /* Assets.xcassets */; };
+		F549A27B1D48C4C0008F1DF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F549A2791D48C4C0008F1DF4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F549A2641D48C4C0008F1DF4 /* ProSfera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProSfera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F549A2681D48C4C0008F1DF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F549A26A1D48C4C0008F1DF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F549A26B1D48C4C0008F1DF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F549A26D1D48C4C0008F1DF4 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		F549A26F1D48C4C0008F1DF4 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		F549A2711D48C4C0008F1DF4 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		F549A2721D48C4C0008F1DF4 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		F549A2751D48C4C0008F1DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F549A2771D48C4C0008F1DF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F549A27A1D48C4C0008F1DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F549A27C1D48C4C0008F1DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F549A2611D48C4C0008F1DF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F549A25B1D48C4C0008F1DF4 = {
+			isa = PBXGroup;
+			children = (
+				F549A2661D48C4C0008F1DF4 /* ProSfera */,
+				F549A2651D48C4C0008F1DF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F549A2651D48C4C0008F1DF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F549A2641D48C4C0008F1DF4 /* ProSfera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F549A2661D48C4C0008F1DF4 /* ProSfera */ = {
+			isa = PBXGroup;
+			children = (
+				F549A26A1D48C4C0008F1DF4 /* AppDelegate.h */,
+				F549A26B1D48C4C0008F1DF4 /* AppDelegate.m */,
+				F549A26D1D48C4C0008F1DF4 /* Shader.fsh */,
+				F549A26F1D48C4C0008F1DF4 /* Shader.vsh */,
+				F549A2711D48C4C0008F1DF4 /* GameViewController.h */,
+				F549A2721D48C4C0008F1DF4 /* GameViewController.m */,
+				F549A2741D48C4C0008F1DF4 /* Main.storyboard */,
+				F549A2771D48C4C0008F1DF4 /* Assets.xcassets */,
+				F549A2791D48C4C0008F1DF4 /* LaunchScreen.storyboard */,
+				F549A27C1D48C4C0008F1DF4 /* Info.plist */,
+				F549A2671D48C4C0008F1DF4 /* Supporting Files */,
+			);
+			path = ProSfera;
+			sourceTree = "<group>";
+		};
+		F549A2671D48C4C0008F1DF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F549A2681D48C4C0008F1DF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F549A2631D48C4C0008F1DF4 /* ProSfera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F549A27F1D48C4C0008F1DF4 /* Build configuration list for PBXNativeTarget "ProSfera" */;
+			buildPhases = (
+				F549A2601D48C4C0008F1DF4 /* Sources */,
+				F549A2611D48C4C0008F1DF4 /* Frameworks */,
+				F549A2621D48C4C0008F1DF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProSfera;
+			productName = ProSfera;
+			productReference = F549A2641D48C4C0008F1DF4 /* ProSfera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F549A25C1D48C4C0008F1DF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Seryozha Movsisyan";
+				TargetAttributes = {
+					F549A2631D48C4C0008F1DF4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F549A25F1D48C4C0008F1DF4 /* Build configuration list for PBXProject "ProSfera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F549A25B1D48C4C0008F1DF4;
+			productRefGroup = F549A2651D48C4C0008F1DF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F549A2631D48C4C0008F1DF4 /* ProSfera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F549A2621D48C4C0008F1DF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F549A2761D48C4C0008F1DF4 /* Main.storyboard in Resources */,
+				F549A2701D48C4C0008F1DF4 /* Shader.vsh in Resources */,
+				F549A2781D48C4C0008F1DF4 /* Assets.xcassets in Resources */,
+				F549A27B1D48C4C0008F1DF4 /* LaunchScreen.storyboard in Resources */,
+				F549A26E1D48C4C0008F1DF4 /* Shader.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F549A2601D48C4C0008F1DF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F549A26C1D48C4C0008F1DF4 /* AppDelegate.m in Sources */,
+				F549A2731D48C4C0008F1DF4 /* GameViewController.m in Sources */,
+				F549A2691D48C4C0008F1DF4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F549A2741D48C4C0008F1DF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F549A2751D48C4C0008F1DF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F549A2791D48C4C0008F1DF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F549A27A1D48C4C0008F1DF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F549A27D1D48C4C0008F1DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F549A27E1D48C4C0008F1DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F549A2801D48C4C0008F1DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProSfera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SM.ProSfera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F549A2811D48C4C0008F1DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProSfera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SM.ProSfera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F549A25F1D48C4C0008F1DF4 /* Build configuration list for PBXProject "ProSfera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F549A27D1D48C4C0008F1DF4 /* Debug */,
+				F549A27E1D48C4C0008F1DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F549A27F1D48C4C0008F1DF4 /* Build configuration list for PBXNativeTarget "ProSfera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F549A2801D48C4C0008F1DF4 /* Debug */,
+				F549A2811D48C4C0008F1DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F549A25C1D48C4C0008F1DF4 /* Project object */;
+}
